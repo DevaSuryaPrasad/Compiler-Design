@@ -1,0 +1,10 @@
+public static int max(String args) {
+        int a = 100;
+        int b = 200;
+        int m;
+        m = max(a,b);
+        print("max of d",f);
+    }
+    
+// This code should not work because we wrote some syntax error near the print definition -> there is no recognition for just print in java, we have to write System.out.print()
+// It will give us parser error.

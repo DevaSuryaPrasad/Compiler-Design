@@ -1,0 +1,14 @@
+public static int max(String args) {
+        int a = 100;
+        int b = 200;
+        int m;
+        m = max(a,b);
+        System.out.println("max of d",f);
+        
+        /* iafohsgb ihgaobg */
+        
+        if(n>0) {
+        	System.out.println("Laugh Everyday");
+        	return Goodboy;
+        }
+    }

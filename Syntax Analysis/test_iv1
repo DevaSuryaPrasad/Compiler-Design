@@ -1,0 +1,10 @@
+public int static max(String args) {
+        int a = 100;
+        int b = 200;
+        int m;
+        m = max(a,b);
+        System.out.println("max of d",f);
+    }
+    
+// This code should not work because we wrote some syntax error near the function definition  -> public int static instead of public static int
+// It will give us parser error.
