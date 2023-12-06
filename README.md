@@ -8,7 +8,7 @@ This project focuses on the design and implementation of a Java Compiler, a cruc
 
 The Lexical Analysis phase involves breaking down the source code into tokens, which are the smallest units of meaning in a programming language. This phase is responsible for identifying keywords, operators, identifiers, literals, and other language constructs. We have implemented a robust lexical analyzer that scans the input Java source code and generates a stream of tokens.
 
-Implementation Details
+# Implementation Details
 
 Lexer: Our lexer is built using lex, which facilitates the recognition of Java language constructs and converts them into tokens.
 Regular Expressions: We use regular expressions to define the patterns for various token types, ensuring efficient and accurate lexical analysis.
@@ -17,8 +17,8 @@ Regular Expressions: We use regular expressions to define the patterns for vario
 
 Once the source code has been tokenized, the Syntax Analysis phase verifies whether the arrangement of these tokens conforms to the grammatical structure of the Java language. This phase involves constructing a syntax tree that represents the hierarchical structure of the program. We have implemented a parser that enforces the syntactic rules of Java and generates a syntax tree for further processing.
 
-Implementation Details
+# Implementation Details
 
-Parser: Our parser uses [parser generator/tool] to generate a parser based on the defined grammar rules for Java.
+Parser: Our parser uses yacc tool to generate a parser based on the defined grammar rules for Java.
 Syntax Tree: The generated syntax tree serves as an abstract representation of the program's structure, aiding in subsequent analysis phases.
 
